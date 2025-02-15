@@ -6,9 +6,9 @@ import openai
 import os
 
 
-os.environ["OPENAI_API_KEY"] = "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" #Does not exist anymore.
 
-import os
+
+
 
 api_key = os.getenv("GROQ_API_KEY")
 if not api_key:
